@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "macos.active-app",
+  "name": "Active application",
+  "version": "1.0.0",
+  "author": "saitakarcesme / Omarchy contributors",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Active application",
+    "defaultSection": "left",
+    "allowMultiple": false
+  }
+}
